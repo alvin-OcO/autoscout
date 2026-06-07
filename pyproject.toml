@@ -6,6 +6,7 @@ readme = "README.md"
 requires-python = ">=3.11,<3.13"
 dependencies = [
     "browser-use>=0.12.9",
+    "gradio>=6.16.0",
     "langchain-deepseek>=1.1.0",
 ]
 
