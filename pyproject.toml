@@ -1,0 +1,13 @@
+[project]
+name = "browser-use-learn"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11,<3.13"
+dependencies = [
+    "browser-use>=0.12.9",
+    "langchain-deepseek>=1.1.0",
+]
+
+[tool.uv.sources]
+browser-use = { git = "https://github.com/browser-use/browser-use.git" }
